@@ -8,6 +8,7 @@ nav:
       - Group 4: group4.md
       - Group 5: group5.md
       - Group 6: group6.md
+docs_dir: "class"
 theme:
   name: material
   language: en
