@@ -1,0 +1,70 @@
+site_name: Bioinformatics - Fall 2020
+nav:
+    - Home: index.md
+    - Group Project:
+      - Group 1: group1.md
+      - Group 2: group2.md
+      - Group 3: group3.md
+      - Group 4: group4.md
+      - Group 5: group5.md
+      - Group 6: group6.md
+theme:
+  name: material
+  language: en
+  palette:
+    primary: black
+    accent: blue
+  font:
+    text: Ubuntu
+    code: Ubuntu Mono
+  icon:
+    logo: material/dna
+  favicon: images/favicon-16x16.png
+
+
+# Extras
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/rameshbalan
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/rameshbalan26
+
+
+# Extensions for OS specific tabs/math equations and a bunch of other stuffs.
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: true
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  # - markdown.extensions.toc:
+  #     permalink: false
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  # - pymdownx.highlight:
+  #     linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  # - pymdownx.magiclink:
+  #     repo_url_shorthand: true
+  #     user: squidfunk
+  #     repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
